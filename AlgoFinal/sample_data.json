@@ -1,0 +1,85 @@
+{
+  "problem1_exam_scheduling": {
+    "exams": ["Math", "Physics", "English", "History", "Biology", "Chemistry"],
+    "conflicts": [
+      ["Math", "History"],
+      ["Math", "Chemistry"],
+      ["English", "Physics"],
+      ["English", "Chemistry"],
+      ["Biology", "Physics"],
+      ["Biology", "History"]
+    ]
+  },
+  "problem2_delivery_route": {
+    "stops": [
+      {"name": "School", "x": 0, "y": 0},
+      {"name": "Market", "x": 6, "y": 5},
+      {"name": "Church", "x": 1, "y": 1},
+      {"name": "Clinic", "x": 10, "y": 2},
+      {"name": "Plaza", "x": 8, "y": 2},
+      {"name": "Library", "x": 5, "y": 6},
+      {"name": "Terminal", "x": 3, "y": 2},
+      {"name": "Bakery", "x": 2, "y": 8}
+    ]
+  },
+  "problem3_class_timetable": {
+    "slots": ["Mon 8:00", "Mon 10:00", "Mon 1:00"],
+    "max_subjects_per_slot": 2,
+    "subjects": [
+      {"name": "Discrete Math", "instructor": "Santos"},
+      {"name": "Web Systems", "instructor": "Reyes"},
+      {"name": "Operating Systems", "instructor": "Reyes"},
+      {"name": "Algorithms", "instructor": "Cua"},
+      {"name": "Databases", "instructor": "Cua"},
+      {"name": "Networks", "instructor": "Cua"}
+    ]
+  },
+  "problem4_budget_allocation": {
+    "budget": 90,
+    "items": [
+      {"name": "Whiteboard", "cost": 10, "score": 60},
+      {"name": "Projector", "cost": 20, "score": 100},
+      {"name": "Printer", "cost": 30, "score": 120},
+      {"name": "Router", "cost": 15, "score": 45},
+      {"name": "Speakers", "cost": 12, "score": 30},
+      {"name": "Webcam", "cost": 8, "score": 24},
+      {"name": "Tablet", "cost": 25, "score": 70},
+      {"name": "Monitor", "cost": 40, "score": 95},
+      {"name": "Keyboard set", "cost": 5, "score": 10}
+    ]
+  },
+  "problem5_network_cabling": {
+    "buildings": ["Library", "Gym", "Admin", "Science", "Dorm", "Cafeteria"],
+    "cables": [
+      {"a": "Library", "b": "Admin", "cost": 4},
+      {"a": "Library", "b": "Science", "cost": 7},
+      {"a": "Library", "b": "Cafeteria", "cost": 9},
+      {"a": "Gym", "b": "Dorm", "cost": 5},
+      {"a": "Gym", "b": "Cafeteria", "cost": 6},
+      {"a": "Admin", "b": "Science", "cost": 3},
+      {"a": "Admin", "b": "Dorm", "cost": 10},
+      {"a": "Science", "b": "Cafeteria", "cost": 8},
+      {"a": "Science", "b": "Dorm", "cost": 11},
+      {"a": "Dorm", "b": "Cafeteria", "cost": 2}
+    ]
+  },
+  "problem6_sudoku": {
+    "puzzle_4x4": [
+      [1, 0, 3, 0],
+      [0, 4, 0, 2],
+      [2, 0, 4, 0],
+      [0, 3, 0, 1]
+    ],
+    "puzzle_9x9": [
+      [5, 3, 0, 0, 7, 0, 0, 0, 0],
+      [6, 0, 0, 1, 9, 5, 0, 0, 0],
+      [0, 9, 8, 0, 0, 0, 0, 6, 0],
+      [8, 0, 0, 0, 6, 0, 0, 0, 3],
+      [4, 0, 0, 8, 0, 3, 0, 0, 1],
+      [7, 0, 0, 0, 2, 0, 0, 0, 6],
+      [0, 6, 0, 0, 0, 0, 2, 8, 0],
+      [0, 0, 0, 4, 1, 9, 0, 0, 5],
+      [0, 0, 0, 0, 8, 0, 0, 7, 9]
+    ]
+  }
+}
